@@ -1,7 +1,8 @@
 lst1 = []
 lst2 = []
+size_lst1 = int(input())
 
-for i in range(5):
+for i in range(len(size_lst1)):
     lst1.append(input('Input string: '))
 
 for s in lst1:
